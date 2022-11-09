@@ -1,0 +1,47 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+input {
+    margin: 10px;
+    padding: 10px;
+    height: 40px;
+    width: 320px;
+}
+
+#btn_primary{
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 100;
+    background-color: royalblue;
+    color: #fff;
+    border-radius: 15px;
+}
+
+#btn_primary:hover{
+    background-color: aqua;
+    color: #000;
+}
+
+#btn_secondary{
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 100;
+    background-color:rgb(214, 26, 26);
+    color: #fff;
+    border-radius: 15px;
+}
+
+#btn_secondary:hover{
+    background-color:orangered;
+    color: #000;
+}
